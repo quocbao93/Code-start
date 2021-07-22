@@ -1,0 +1,1082 @@
+
+#header {
+	background-color: rgb(5, 34, 74);
+	width: 100%;
+	height: 80px;
+	display: flow-root;
+	z-index: 1;
+	top: 0;
+	position: fixed;
+}
+
+	.logo {
+		float: left;
+		margin: 10px 0 0 50px;
+	}
+
+	.logo img {
+		width: 200px;
+		height: auto;
+	}
+
+	.hopqua {
+		float: left;
+		margin: 20px 0 0 45px;
+	}
+
+	.hopqua img {
+		width: 40px;
+		height: auto;
+	}
+
+	.textheader {
+		float: left;
+		margin: 12px 0 0 20px;
+	}
+
+	.textheader p {
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+	}
+
+	.buttonheader {
+		float: left;
+	    margin: 20px 0 0 70px;
+	    background-color: rgb(23, 182, 44);
+	    padding: 10px;
+	    border-radius: 5px;
+	    text-transform: uppercase;
+	    font-weight: bold;
+	    animation: zoomheader 1.5s;
+	    animation-iteration-count: infinite;
+	    animation-timing-function: ease-out;
+	    animation-direction: alternate;
+	}
+
+	@keyframes zoomheader {
+
+		0% {
+	    transform: scale(1, 1);
+	  	}
+	  	
+	  	50% {
+	    transform: scale(1.2, 1.2);
+	  	}
+	  	
+	  	100% {
+	    transform: scale(1, 1);
+	 	}
+	}
+
+	.buttonheader a {
+		text-decoration: none;
+		color: white;
+	}
+
+#clear {
+	clear: both;
+}
+
+#block1 {
+	background-image: url(imgjolo/bg1.jpg);
+	background-size: cover;
+	display: flow-root;
+	margin-top: 79px;
+}
+
+	#container1 {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	.textblock1 h1 {
+		color: white;
+		font-weight: bold;
+		font-size: 60px;
+		text-shadow: 1px 1px 1px black;
+		margin: 10px;
+	}
+
+	.textblock1 p {
+		color: white;
+		font-weight: bold;
+	}
+
+	#container1 p {
+		font-size: 24px;
+	}
+
+	.textblock1 {
+		width: 50%;
+		float: left;
+		text-align: center;
+		margin: 60px 0 0 0;
+	}
+
+	.textblock1 p:nth-child(2) {
+		text-shadow: 1px 1px 1px black;
+	}
+
+	.textblock1 p img {
+		width: 24px;
+	}
+
+	.textblock1 p:nth-child(5) {
+		margin: 50px auto;
+		background-color: white;
+		color: red;
+		text-transform: uppercase;
+		max-width: 300px;
+		line-height: 35px;
+		font-size: 30px !important;
+		padding: 10px;
+		border-radius: 5px;
+	}
+
+	.textblock1 a {
+		text-decoration: none;
+	}
+
+	.buttonblock1 {
+		background-color: green;
+		color: white;
+		text-transform: uppercase;
+		max-width: 300px;
+		padding: 10px;
+		border-radius: 5px;
+		margin: 0px auto;
+		transition: transform 0.5s;
+		box-shadow: 5px 5px 5px #535353;
+	}
+
+	.buttonblock1:hover {
+		transform: scale(1.05);
+	}
+
+	.anhblock1 {
+		margin: 20px 0 30px 0;
+		float: left;
+	}
+
+	.anhblock1 img {
+		height: 55px;
+		width: auto;
+		float: left;
+		padding: 20px 20px 0 0;
+	}
+
+	.anhlonblock1 img{
+		width: 450px;
+		height: auto;
+	}
+
+#block2 {
+}
+
+	#container2 {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+
+	#container2 h2 {
+		text-align: center;
+		color: rgb(242, 101, 34);
+		margin: 30px 0 0 0;
+	}
+
+	#container2 p {
+		text-align: center;
+		line-height: 20px;
+		margin: 30px 0 30px 0;
+		text-align: left;
+		line-height: 24px;
+	}
+
+	.cotblock2  img {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+
+	.cotblock2 {
+		float: left;
+		width: 32%;
+		padding: 0 0 0 10px;
+		position: relative;
+	}
+
+	.chenanh {
+		background-color: #ff0000ab;
+	    color: white;
+	    position: absolute;
+	    width: 290px;
+	    padding: 10px;
+	    top: 137px;
+	    font-weight: bold;
+	}
+
+#block3 {
+	background-color: rgb(250, 248, 248);
+	display: flow-root;
+}
+
+	#container3 {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+
+	#container3 h2 {
+		color: rgb(242, 101, 36);
+		text-align: center;
+		padding: 30px 0 0 0;
+		font-size: 30px;
+	}
+
+	#container3 >p {
+		text-align: center;
+	    font-size: 18px;
+	    line-height: 26px;
+	}
+
+	.textblock3 {
+		float: left;
+		width: 50%;
+	}
+
+	.textblock3 p {
+		line-height: 35px;
+		padding-left: 70px;
+	}
+
+	.textblock3 p:first-child {
+		font-size: 20px;
+	}
+
+	.chiacotblock3 img {
+		float: right;
+	    width: 450px;
+	    height: auto;
+	    padding-right: 70px;
+	}
+
+	#container3 a {
+		text-decoration: none;
+		margin-bottom: 50px;
+	}
+
+	.buttonblock3 {
+		background-color: green;
+	    padding: 10px 30px 10px 30px;
+	    border-radius: 5px;
+	    text-transform: uppercase;
+	    color: white;
+	    font-weight: bold;
+	    font-size: 24px;
+	    margin: 0 auto 50px auto;
+	    width: fit-content; /*fit backgound vừa với nội dung text bên trong*/
+	    transition: transform 0.5s;
+		box-shadow: 5px 5px 5px #535353;
+	}
+
+	.buttonblock3:hover {
+		transform: scale(1.05);
+	}
+
+#block4 {
+}
+
+	#container4 {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+
+	#container4 >img {
+		float: left;
+		margin: 40px 0 0 40px;
+	}
+
+	.textblock4 {
+		float: right;
+    	width: 600px;
+    	margin-bottom: 35px;
+	}
+
+	.textblock4 h2 {
+		color: rgb(242, 101, 34);
+		text-align: center;
+		line-height: 40px;
+	}
+
+	.textblock4 >p {
+		text-align: center;
+		font-weight: bold;
+		margin-bottom: 40px;
+	}
+
+	/*Dòng quy định textblock4 div này rất quan trọng, quyết định đến việc tách các đoạn*/
+	.textblock4 div {
+		min-height: 60px;
+	}
+
+	.textblock4 div img {
+		width: 35px;
+    	height: auto;
+    	float: left;
+	}
+
+	.textblock4 div p {
+		width: calc(100% - 60px);
+	    padding-left: 10px;
+	    float: left;
+	    margin: 0;
+	    font-size: 17px;
+   		line-height: 30px;
+	}
+
+	#container4 a {
+		text-decoration: none;
+		margin-bottom: 50px;
+	}
+
+#block5 {
+	background-color: rgb(250, 248, 248);
+	display: flow-root;
+}
+
+	#container5 {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+
+	#container5 h2 {
+		text-align: center;
+		color: rgb(242, 101, 34);
+		font-size: 30px;
+		margin-top: 50px;
+	}
+
+	#container5>p {
+		text-align: center;
+	}
+
+	.cotblock5 {
+		float: left;
+		width: 30%;
+		background-color: white;
+		box-shadow: 5px 6px 23px -5px black;
+		padding: 25px;
+		box-sizing: border-box;
+		position: relative;
+		margin-bottom: 50px;
+	}
+
+	.dieuchinh {
+		margin-left: 55px;
+	}
+
+	/*.hangtren i {
+		float:left;
+		font-size: 20px;
+		font-size: 37px;
+		color: rgb(255, 95, 44);
+	}
+
+	.nganghang {
+		float: left;
+		margin-left: 20px;
+	}*/
+
+	.nganghang {
+		margin-left: 50px;
+	}
+
+	/*Cái này sẽ giảm phức tạp khi đỡ phải icon, đặt div, float khi dùng icon tại thư viện nói chung*/
+	.nganghang:before {
+	    content: "\f101"; /*phải dò xem cái before của icon font awesome là gì để đưa vào đây*/
+	    font-family: "Font Awesome 5 Free"; /*có 2 loại là free và pro. Đa phần là free */
+	    font-weight: 700; /*chỉ 700 mới nhận, 400 ko nhận với font free, còn pro sẽ nhận tất*/
+	    font-size: 40px;
+	    color: #ff5f2c;
+	    position: absolute;
+	    left: 23px;
+	}
+
+	.xanhdam {
+		font-weight: bold;
+		color: rgb(5, 31, 77);
+		margin: 0;
+	}
+
+	.dacam {
+		font-weight: bold;
+		color: rgb(255, 95, 44);
+		margin: 0;
+	}
+
+	.cotblock5 div>p {
+		text-align: justify;
+		line-height: 23px;
+	}
+
+	#container5 a {
+		text-decoration: none;
+		margin: 0 auto;
+	}
+
+	.buttonblock5 {
+		background-color: green;
+	    padding: 10px;
+	    border-radius: 5px;
+	    text-transform: uppercase;
+	    color: white;
+	    font-weight: bold;
+	    font-size: 15px;
+	    margin: 0 auto;
+	    width: fit-content;
+	    transition: transform 0.5s;
+	    box-shadow: 5px 5px 5px #535353;
+	    margin-bottom: -42px;
+	    margin-top: 25px;
+	}
+
+	.buttonblock5:hover {
+		transform: scale(1.05);
+	}
+
+#block6 {}
+
+	#container6 {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+/*
+	#container6 iframe {
+		float: left;
+		margin-bottom: 20px;
+	}
+*/
+	
+	#container6 p {
+		text-align: center;
+	}
+
+	.anhtron {
+		border-radius: 100%; /*bo góc 100%. Kết hợp với hình vuông phía dưới sẽ ra hình tròn.*/
+	    width: 200px;
+	    height: 200px;
+	    overflow: hidden;
+	    border: solid orange;
+	    margin: 0 auto;
+	}
+
+	.anhtron img {
+    	width: 100%; /*Để ảnh sẽ hiển thị trọn vẹn*/
+	}
+
+	.baongoaithangbxwraper2 {
+		width: 45%;
+		float: right;
+	}
+
+	.bx-wrapper {
+		width: 100%;
+		height: auto;
+		position: absolute;
+		/*float: right;*/
+    	/*margin-bottom: 48px !important;*/
+	}
+
+	.baongoaiyoutube {
+		width: 50%;
+    	float: left;
+	}	
+
+	.baongoaiyoutube .youtube iframe {
+		width: fit-content;
+	}
+
+	.ytb2 {
+		margin-top: 35px;
+	}
+
+	.hang6-2 iframe {
+		width: 530px;
+		height: 315px;
+	}
+
+	.ytb3 {
+		float: left;
+	}
+
+	.ytb4 {
+		float: left;
+	}
+
+	iframe.ybt4 {
+    margin-left: 40px;}
+
+
+
+#block7 {
+	background-color: rgb(250, 248, 248);
+	display: flow-root;
+}
+
+	#container7 {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+
+	#container7 h2 {
+		margin-top: 20px;
+		text-align: center;
+		color: rgb(242, 101, 34);
+
+	}
+
+	.slider div img {
+		position: relative;
+		right: 25%;
+	}
+
+	.khungchu7 p {
+		margin: 0 auto;
+	}
+
+	.khungchu7 div i {
+		font-size: 20px;
+		float: left;
+		position: relative;
+		top: 10px;
+	}
+
+	.khungchu7 div p {
+		 float: left;
+	    width: 86%;
+	    line-height: 22px;
+	    padding: 5px 5px 5px 10px;
+	    box-sizing: border-box;
+	    font-size: 14px;
+	    text-align: justify;
+	    position: relative;
+	}
+
+	.textblock7 {
+		float: left;
+		width: 50%;
+		margin-left: 25px;
+	}
+
+	.textblock7 a {
+		text-decoration: none;
+	}
+
+	.textblock7 >p {
+		line-height: 33px;
+    	font-size: 18px;
+    	text-align: left;
+	}
+
+	.khungchu7 {
+		position: absolute;
+	    top: 0px;
+	    left: 51%;
+	    width: 45%;
+	    margin: 0 auto;
+	    background-color: white;
+	    padding: 10px;
+	    line-height: 35px;
+	    z-index: 1;
+	}
+
+	.khungchu7 a {
+		text-decoration: none;
+	}
+
+	.xemthaydaythu {
+		background-color: orange;
+	    border-radius: 5px;
+	    width: fit-content;
+	    padding: 5px 10px 5px 10px;
+	    color: white;
+	}
+
+	.baongoaithangbxwraper {
+		width: 40%;
+		float: left;
+		margin-left: 85px;
+	}
+
+
+
+#block8 {}
+
+	#container8 {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+
+	.left, .textblock8 {
+		margin-top: 40px;
+	}
+
+	.left {
+		float:left;
+		width: 40%;
+	}
+
+	.left .bx-wrapper {
+		width: 100%;
+	}
+
+	.textblock8 {
+		float: left;
+	    width: calc(60% - 60px);
+	    margin-left: 60px;
+	    margin-bottom: 70px;
+	}
+
+	.textblock8 h2 {
+		margin: 0 0 30px 0;
+		color: rgb(242, 101, 34);
+		line-height: 40px;
+	}
+
+	.textblock8 div {
+		min-height: 60px;
+	}
+
+	.textblock8 div img {
+		float: left;
+		width: 35px;
+	}
+
+	.textblock8 div p {
+		float: left;
+		padding-left: 30px;
+		margin: 0;
+		width: 500px;
+		text-align: justify;
+	}
+
+	.textblock8 p b {
+		line-height: 35px;
+	}
+
+	.textblock8 p {
+		margin-bottom: 25px;
+	}
+
+#block9 {
+	background-color: rgb(255, 87, 34);
+}
+	
+	#container9 {
+		max-width: 750px;
+		margin: 0 auto;
+	}
+
+	#container9 img {
+		margin: 30px;
+		width: 180px;
+	}
+
+#block10 {}
+	
+	#container10 {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	#container10 h2 {
+		color: rgb(242, 101, 34);
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.soto {
+		font-size: 70px;
+		color: rgb(242, 101, 34);
+		font-weight: bold;
+		margin: 0;
+	}
+
+	.textdong10-1 {
+		float: left;
+		width: 50%;
+	}
+
+	.dong10-1 img {
+		float: right;
+		margin-bottom: 30px;
+	}
+
+	.dong10-2 img {
+		float: left;
+		width: 450px;
+		margin-bottom: 30px;
+	}
+
+	.textdong10-2 {
+		float: right;
+		width: 50%;
+	}
+
+	.dong10-3 img {
+		margin-bottom: 50px;
+	}
+
+#block11 {
+	background-image: url(imgjolo/bg11.jpg);
+	display: flow-root;
+	background-size: cover;
+}
+
+	#container11 {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+
+	.bg2 {
+		background-image: url(imgjolo/uu-dai.jpg);
+		z-index: 1;
+    	display: inline-block;
+    	margin-top: 30px;
+    	padding: 10px;
+    	border-radius: 5px;
+    	box-shadow: 5px 5px 10px 1px black;
+	}
+
+	.uudai .bg2 p {
+		text-align: center;
+		font-weight: bold;
+		margin: 0;
+		padding: 0 20px 0 20px;
+	}
+
+	.uudai>p {
+		color: white;
+		text-align: center;
+		font-size: 20px;
+		font-weight: bold;
+		line-height: 30px;
+	}
+
+	.uudai {
+		float: left;
+		margin-top: 100px;
+	}
+
+	.formdangky {
+		background-image: url(imgjolo/bgform.jpg);
+		float: left;
+		margin: 30px 0 20px 60px;
+		width: 50%;
+		border-radius: 10px;
+	}
+
+	.formdangky h2,p {
+		text-align: center;
+	}
+
+	.formdangky h2 {
+		font-size: 30px;
+		margin-bottom: 0; 
+	}
+
+
+/*============================Cái đồng hồ ở đây=======================================================*/
+			#countdown li {
+		  display: inline-block;
+		  font-size: 15px;
+		  list-style-type: none;
+		  padding: 1em;
+		  text-transform: uppercase;
+		}
+
+		#countdown li span {
+		    display: block;
+    		font-size: 30px;
+		}
+
+		#countdown {
+			margin: 0 auto;
+		    /* width: fit-content; */ 
+		    /*-------------Cái này rất quan trọng khi nó fit content vừa khung, dùng để căn giữa-----------------*/
+		    text-align: center;
+		}
+
+		#countdown ul {
+			padding: 0px;
+		}
+
+		#countdown ul li {
+			padding-top: 5px;
+		}
+
+		#countdown ul li span {
+			background-color: white;
+			border-radius: 5px;
+			padding: 2px 5px 2px 5px;
+		}
+
+
+		@media all and (max-width: 768px) {
+
+		#countdown  li {
+		    font-size: 1.125rem;
+		    padding: .75rem;
+		  }
+		  
+		#countdown  li span {
+		    font-size: 3.375rem;
+		  }
+		}
+/*=======================================================================================Hết đồng hồ ở đây*/
+	#formiframe iframe {
+		width: 100%;
+	    height: 363px;
+	    border: unset;
+	    margin-bottom: -69px;
+    	margin-top: -52px;
+	}
+
+#footer {
+	background-color: rgb(127, 124, 124);
+	display: flow-root;
+}
+
+	#containerfooter {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+
+	.footer1 {
+		float: left;
+		width: 30%;
+		margin: 30px 0 30px 0;
+	}
+
+	.footer1 div i {
+		float: left;
+		color: white;
+	}
+
+	.footer1 div p {
+		float: left;
+		margin: 0;
+		padding-left: 20px;
+		font-weight: bold;
+		color: white;
+	}
+
+	.footer1 div {
+		font-size: 16px;
+    	padding: 5px 0 5px 0;
+	}
+
+	.footer1>p {
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		text-align: left;
+	}
+
+	.footer2 {
+		width: 30%;
+		float: left;
+		color: white;
+		margin-top: 20px;
+	}
+
+	.footer2>p {
+		font-size: 20px;
+	}
+
+	.number {
+		float: left;
+		background-color: white;
+		padding: 5px 10px 5px 10px;
+		border-radius: 2px;
+		color: rgb(127, 124, 124);
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.place {
+		float: left;
+		width: 280px;
+		text-align: left;
+		margin-left: 20px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 15px;
+	}
+
+	.footer2 div i {
+		float: left;
+		font-size: 20px;
+	}
+
+	.footer3 {
+		float: left;
+		width: 30%;
+		color: white;
+		margin-top: 104px;
+		margin-left: 60px;
+	}
+
+	.footer3 div i {
+		float: left;
+		font-size: 20px;
+	}
+
+#footerfixed {
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+	background-color: green;
+	width: 16%;
+	border-radius: 10px;
+}
+
+#footerfixed a {
+	text-decoration: none;
+	width: fit-content;
+}
+
+#footerfixed a img {
+	float: left;
+	width: 50px;
+	padding: 2px;
+}
+
+#footerfixed a p {
+	text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 17px 0;
+    width: fit-content;
+    float: left;
+    padding-left: 10px;
+}
+
+#formpopup {
+	    width: 100%;
+	    height: 100%;
+	    margin: 0 auto;
+	    display: none;
+	    position: fixed;
+	    background: #0008ff2e;
+	    z-index: 10;
+	    top: 0px;
+		left: 0px;
+	}
+
+	.containerpopup {
+		width: 500px;
+		margin: 0 auto;
+		background-color: red;
+		border-radius: 10px;
+	}
+
+	.containerpopup form p {
+		text-align: center;
+		color: white;
+		text-transform: uppercase;
+		font-size: 30px;
+		font-weight: bold;
+		margin: 0px;
+		padding: 30px 0 10px 0;
+	}
+
+	.containerpopup form {
+		margin: 60px 0 0 0;
+	}
+
+	.containerpopup form a img {
+		position: absolute;
+		width: 20px;
+		margin: 0 0 0 474px;
+	}
+
+	.containerpopup input, textarea, select {
+		width: 90%;
+	}
+
+	.ndformpopup {
+		margin: 0 0 0 60px;
+	}
+
+	.ndformpopup textarea {
+		height: 100px;
+	}
+
+	#nutguipopup {
+		margin: 0 auto;
+	}
+
+	.giancach2 {
+		margin: 10px 0 10px 0;
+		padding: 15px 0 15px 0;
+	}
+
+	input[type=submit] {
+		color: white;
+	    background-color: orange;
+	    margin-bottom: 20px;
+	    padding: 10px;
+	    border-radius: 15px;
+	    border: 0;
+	    font-weight: bold;
+	}
+
+#videopopup {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	display: none;
+	position: fixed;
+	background: #0008ff2e;
+	z-index: 10;
+	top: 0px;
+	left: 0px;
+}
+
+	#videopopup:target {
+			display: block;
+		}
+
+	.vovideo {
+		margin: 0 auto;
+		width: 560px;
+		height: 315px;
+		top: 100px;
+		z-index: 1;
+	}
+
+	.vovideo iframe {
+		width: 100%;
+		height: 100%;
+		margin: 120px auto;
+	}
+
+	.thoatvideo {
+		width: 100%;
+		height: 100%;
+		background-color: #ff00472e;
+		z-index: 2;
+	}
+
+	.thoatvideo a {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+
+	/*.thoatvideo:target {
+		display: none;
+	}*/
+
