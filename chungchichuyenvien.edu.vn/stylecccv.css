@@ -1,0 +1,344 @@
+#block-1 {
+	background-image: url(imgcccv/bg1.jpg);
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+	#header {
+		padding: 10px;
+	}
+	#logo {
+
+		float: left;
+	}
+
+	#menu ul {
+		list-style-type: none;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	#menu ul li {
+		display: inline-table;
+		padding-left: 40px;
+	}
+
+	#menu ul li a {
+		text-decoration: none;
+		color: white;
+		font-size: 16px;
+	}
+
+	#menu ul li a:hover {
+		color: #128AF4;
+		transition: 0.5s linear 0.1s;
+	}
+
+	#phan1 {
+		padding-left: 100px;
+	}
+
+	h1 {
+		color: #fff507;
+		max-width: 720px;
+		text-align: left;
+		line-height: 45px;
+		margin-top: 20px !important;
+	}
+
+	#text1 ul > li {
+		list-style-type: none;
+		color: white;
+		margin-bottom: 15px;
+		font-size: 20px !important;
+
+	}
+
+	.fa-check-circle {
+		color: yellow;
+		padding-left: 0 0 0 0px !important;
+
+	}
+
+	#hotline1 {
+		padding-top: 10px;
+	}
+	#hotline1 a {
+		text-decoration: none;
+		color: #fff;
+		font-size: 20px !important;
+		border-bottom: 2px solid #fff;
+
+	}
+
+	.fa-phone-volume {
+		color: #fff;
+		font-size: 20px;
+
+	}
+
+	.button1 {
+		background: linear-gradient(#F69335,#FFF507);
+		text-transform: uppercase;
+		border-radius: 5px;
+		margin-top: 20px;
+		text-align: left;
+		padding: 10px;
+		color: #a78099;
+		margin-bottom: 10px;
+	}
+
+	.button1 a {
+		text-decoration: none;
+		font-size: 20px;
+	}
+
+	.button1 a:hover {
+		color: #333;
+		transition: 0.5s linear 0.1s;
+	}
+
+#clear {
+	overflow: hidden;
+	clear: both;
+}
+
+#block-2 {
+	margin-top: 70px;
+}
+
+	#container2 {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+
+	#tbts {
+		border: 2px dashed black;
+		border-radius: 5px;
+		width: calc(60% - 80px);
+		padding: 15px;
+		position: relative;
+		float: left;
+		line-height: 24px;
+	}
+
+	#tbtsh2 {
+		background-image: url(imgcccv/border.png);
+		background-repeat: no-repeat;
+		color: #003263;
+		text-transform: uppercase;
+	}
+
+	.fa-star {
+		color: yellow;
+	}
+
+	.viethoa {
+		text-transform: uppercase;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+	/*bị thằng bx-wrapper nuốt do java tạo ra nên đoạn này ko cần viết mà thay vào đó viết thằng .bx-wrapper
+	.slider {
+		width: 40%;
+		height: auto;
+		position: absolute;
+		float: right;
+	}*/
+
+	.bx-wrapper {
+		width: 40%;
+		height: auto;
+		position: absolute;
+		float: right;
+	}
+
+#block-3 {
+	}
+
+	#container3 {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+
+	#anhle {
+		float: left;
+	}
+
+	#loiich {
+		float: right;
+		width: 53%;
+	}
+
+	#loiich >p {
+		line-height: 25px;
+	}
+
+	#loiich >h2 {
+		line-height: 35px;
+	}
+
+#block-4 {
+	background-image: url(imgcccv/bg2.jpg);
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-size: cover;
+}
+
+#container4 {
+	max-width: 1100px;
+	margin-left: 100px;
+	width: 50%;
+}
+
+#container4 >h2 {
+	background: #005AA0;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 0px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 25px;
+	color: white;
+}
+
+#text2 {
+	background: #FDF1E1;
+	padding: 10px;
+	margin-top: 0;
+}
+
+#text2 p > i {
+	line-height: 20px;
+}
+
+#block-5 {
+	background-image: url(imgcccv/bg3.jpg);
+	background-size: cover;
+}
+
+#container5 {
+	max-width: 1100px;
+	margin-left: 100px;
+	display: inline-block; /*dòng này rất quan trọng, nếu ko là lỗi tùm lum*/
+}
+
+	/*===Đây là cái form===*/
+	input[type=text], select, textarea {
+	  width: 100%;
+	  padding: 12px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	  margin-top: 6px;
+	  margin-bottom: 16px;
+	  resize: vertical;
+	}
+
+	input[type=submit] {
+	  background-color: #EF701D;
+	  color: white;
+	  padding: 12px 20px;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+
+	input[type=submit]:hover {
+	  background-color: #EFA91D;
+	}
+
+	.form {
+	  border-radius: 5px;
+	  background-color: #f2f2f2;
+	  width: 33%;
+	  float: left;
+	  position: sticky;
+	  top: 10px;
+	  margin-bottom: 30px;
+	}
+
+	.form h3 {
+		text-align: center; 
+		background-color: #005AA0;
+		margin: 0px !important;
+		padding: 10px;
+		border-radius: 5px;
+		color: white;
+		}
+
+	.form form {
+		padding: 20px;
+	}
+
+	.loilam {
+		padding-top: 10px;
+		padding-bottom: 5px;
+		margin: 0px !important;
+	}
+	/*Kết thúc form ở đây*/
+
+	#bangloanxangau {
+		background: white;
+		float: right;
+		width: calc(70% - 95px);
+		padding: 20px;
+		margin-bottom: 30px;
+	}
+
+		.tab {
+			font-size: 20px;
+		}
+
+		#tab2 table th, #tab2 table td, #tab2 table tr {
+			border: solid 1px;
+			padding-left: 10px;
+		}
+
+		#tab2 table {
+			width: 100%;
+		}
+
+		#tab3 table th, #tab3 table td, #tab3 table tr{
+			border: solid 1px;
+			line-height: 25px;
+		}
+
+#footer {
+	background: #33507a;
+	color: white;
+}
+
+	#nutgoirung {
+		position: fixed;
+		bottom: 30px;
+		left: 30px;
+	}
+
+	#nutgoirung img {
+		position: absolute;
+		z-index: 10;
+	}
+
+	#nutgoirung p {
+		background-color: #eeeeee;
+	    padding: 3px 10px 3px 36px;
+	    border-radius: 30px;
+	    color: blue;
+	    font-weight: bold;
+	    font-size: 25px;
+	    position: relative;
+	    left: 30px;
+	}
+
+	#copyright {
+		background-color: #333;
+		text-align: center;
+		padding: 30px;
+		color: white;
+	}
+
+a {
+	text-decoration: none;
+}
